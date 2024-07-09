@@ -1,0 +1,37 @@
+numpy to make arrays
+pandas to create dataframes(structured table)
+sklearn train test split to split dataset to training and test data
+accuracy score to evaluate the model
+
+shape to find number of rows and columns
+describe to find statistical details of data
+
+Target variable
+1: Defective heart
+0: Healthy heart
+
+dropping a columns axis=1 
+dropping a row  axis=0
+
+split data into training and test data
+X_train contains features of training data
+X_test contains features of test data
+Y_train contains target of X_train
+Y_test contains target of Y_train
+
+test_size = how much % of data u want as test data
+stratify = split the data in equal proportion (1,0) throughout training and test data
+random state = split in specific manner
+
+training the model:
+fit() function tries to fit X_train and Y_train ie find pattern or relationship between features in X_train and corresponding target
+
+evaluate the model:
+use accuracy score
+
+To build predictive system:
+1. give input
+2. convert input to numpy array: reshape so that model knows we are predicting for one sample
+3. predict  output from given input using trained model
+4. return prediction
+
